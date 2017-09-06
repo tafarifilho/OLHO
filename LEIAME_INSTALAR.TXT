@@ -1,0 +1,6 @@
+- Copiar a pasta "OLHO" para dentro do diretório "c:\temp"
+- Copiar os atalhos dentro da pasta "c:\temp\olho\atalhos" para dentro da área de
+    trabalho do usuário
+
+OBSERVAÇÃO: TODOS OS ARQUIVOS (EXECUTÁVEIS E BIBLIOTECAS) NECESSÁRIOS PARA EXECUÇÃO
+DO PROGRAMA ESTÃO CONTIDOS DENTRO DA PASTA BIN
