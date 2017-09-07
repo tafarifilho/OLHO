@@ -4,8 +4,8 @@
 # External packages folder
 bin/Tesseract/tessdata/
 bin/ScanTailor/cache/
-**/cache/
-completed/
-in/
-out/
+cache/*
+completed/*
+in/*
+out/*
 
