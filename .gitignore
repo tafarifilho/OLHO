@@ -2,10 +2,4 @@
 .DS_Store
 
 # External packages folder
-bin/Tesseract/tessdata/
-bin/ScanTailor/cache/
-cache/*
-completed/*
-in/*
-out/*
-
+bin/Tesseract/tessdata
