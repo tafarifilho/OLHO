@@ -1,8 +1,9 @@
 echo off
 
-set versao=1.0.3
+set versao=1.0.4
+set username=UserName
 
-TITLE DGJUD Utilitario de PDF
+TITLE Utilitario de PDF
 
 REM Definicao de Variaveis Path
 set TMP=%~dp0temp
@@ -45,12 +46,12 @@ echo ___________________________________________________________________________
 chgcolor A
 echoj $09 
 chgcolor f9
-echoj " DGJUD Utilitario de PDF %versao% " $0a $0a
+echoj " Utilitario de PDF %versao% " $0a $0a
 chgcolor A
 echoj $09 "Adaptado, atualizado e modificado a partir do PDFx." $0a
 echoj $09 "Mantida licenca GNU GPL v3" $0a
 echoj $09 "(c) 2013 Lime Consultants [www.limeconsultants.com]" $0a
-echoj $09 "(c) 2016 Tafarifilho [github.com/tafarifilho]" $0a $0a
+echoj $09 "(c) 2017 TafariFilho [github.com/tafarifilho]" $0a $0a
 chgcolor D
 echoj $09 "As imagens processadas e o arquivo do projeto do ScanTailor sera" $0a
 echoj $09 "automaticamente copiado da pasta" $0a
@@ -109,10 +110,10 @@ REM Meta informacoes do PDF Title, Author, Subject, and Keywords
   
   cd %~dp0out
   echo Title^: ^"DIGITALIZACAO^" >  metadata.txt
-  echo Author^: ^"PRODUZIDO POR DGJUD^" >>  metadata.txt
+  echo Author^: ^"PRODUZIDO POR %username%^" >>  metadata.txt
   echo Subject^: ^"%pfilename%^" >>  metadata.txt
   echo Keywords^: ^"%pfilename%^" >>  metadata.txt
-  echo Application^: ^"DGJUD - OLHO %versao%^" >>  metadata.txt
+  echo Application^: ^"OLHO %versao%^" >>  metadata.txt
   cd %~dp0
   goto setlang
 
